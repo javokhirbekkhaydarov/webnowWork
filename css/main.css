@@ -1,0 +1,756 @@
+*{
+  scroll-behavior: smooth;
+}
+
+.navbar{
+  opacity: 70%;
+  color: #fff;
+
+}
+.navbar .navbar-expand-sm:focus{
+  box-shadow: 0 0 0 2px #ffe606;
+  border:none;
+  outline: none;
+}
+
+#hero {
+  width: 100%;
+  
+  background-size: cover;
+  position: relative;
+}
+
+
+
+#hero .hero-container {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 15px;
+}
+
+#hero h1 {
+  margin: -60rem 0 10px 0;
+  font-size: 64px;
+  font-family:"Satisfy", serif;
+  color: #fff;
+}
+
+#hero h2 {
+  color: #eee;
+  margin-bottom: 50px;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+section {
+    padding: 60px 0;
+  }
+header img{
+    filter: brightness(40%);
+}
+
+.fa-chevron-down{
+    animation-name: anim-1;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+.fa-chevron-down :hover {
+  color:#ffe606;
+}
+.container .text-center .display-4{
+  text-shadow: -1px -20px 2px  rgba(0, 0, 0, 0.2);
+  
+}
+.container .text-center p{
+ font-size: 18px;
+}
+
+.container .row .col-4-md ul{
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  font-size: 18px;
+  
+}
+.container .row .col-4-md ul li{
+  padding-bottom: 40px;
+}
+.container .row .col-4-md ul li .fa-chevron-right {
+  /* display: block; */
+  font-size: 24px;
+  color: #ffb727;
+  float: left;
+  padding-right: 2px;
+}
+
+.container-fluid .text-center .display-4{
+  text-shadow: -1px -20px 2px  rgba(0, 0, 0, 0.2);
+  
+}
+.container-fluid .text-center p{
+ font-size: 10px;
+}
+.container .row .col-6 .cholck  {
+  border-left: 3px solid #909090;
+  border-top-left-radius: 5;
+  /* border-bottom-left-radius: 5%; */
+  border-top: none;
+  border-right: none;
+  border-bottom:none;
+  padding-left: 10px;
+  
+}
+.container .card-deck  {
+     /* border:none; */
+  /* transition: all linear  0s; */
+  transition-delay: 2s;
+  transition-timing-function: linear;
+}
+
+.container .card-deck .card  :hover{
+  box-shadow: 0px 0px 15px rgba(252, 228, 19, 0.938);
+  /* border:1px solid #ffe606; */
+  
+
+}
+#slide .carousel-inner ul li{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+.container .row .col-4 .card .card-img-overlay{
+  background-color: rgba(0, 0, 0, 0.35);
+  transition: all 0.2s ease-in-out;
+  opacity: 0;
+}
+.container .row .col-4 .card .card-img-overlay:hover{
+  opacity: 1;
+  color:#fff;
+  
+}
+.container .card .card-body span #zero{
+ font-size: 40px;
+ font-weight: 600;
+}
+.container .card .card-body span sup{
+  font-size: 16px;
+ }
+ .container .card .card-body p{
+  line-height: 40px;
+  font-size: 16px;
+ }
+ .container .card .card-body del{
+  font-size: 16px;
+ }
+ .container .col-3 .card .card-body{
+   position: relative;
+   overflow: hidden;
+ }
+ 
+ .container .card .card-body  #advanced{
+  padding-right: 25px;
+   transform: rotateZ(40deg);
+   margin-left: 7.5rem;
+  padding-left: 20px;
+   width: 140px;
+   height: 30px;
+padding-top: -2px;
+   font-size: 14px;
+   line-height: -10px;
+   margin-top: -10px;
+  }
+.container .row .col-6 .card span{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: bisque;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+.container .row .col-6 .card .nav .icons{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #ffe606;
+  /* background-color: bisque; */
+  margin: 0 auto;
+  margin-top: 1.5rem;
+  margin-left: 7px;
+  transition: all 0.3s ease-in-out;
+  
+}
+.container .row .col-6 .card .nav{
+  padding-top: 5px;
+  padding-bottom:5px;
+}
+.container .row .col-6 .card .nav .icons .fab{
+  transform: translateX(-45px);
+  color: #000000;
+ 
+}
+.container .row .col-6 .card .nav .icons:hover{
+  background-color: #ffe606;
+  
+}
+.container .row .col-6-lg .card{
+
+  justify-content: space-between;
+}
+.container .row .col-6-lg .card form {
+  display: flex;
+ 
+}
+.container .row .col-6-lg .card form #email{
+  margin-left: 3rem;
+ 
+
+}
+.container .row .col-6-lg .card form input{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.container .row .col-6-lg .card form input:focus{
+  box-shadow: 0 0 0 2px #ffe606;
+  border:none;
+  outline: none; 
+}
+.container .row .col-6-lg  #subject:focus{
+  box-shadow: 0 0 0 2px #ffe606;
+  border:none;
+  outline: none; 
+}
+.container .row #call-me {
+  transform: translateY(-7rem);
+}
+.container .row #karta {
+  transform: translateY(-7rem);
+}
+
+.card{
+  box-shadow: 0px 0px 20px  rgba(0, 0, 0, 0.1);
+}
+textarea:focus{
+  box-shadow: 0 0 0 2px #ffe606;
+  border:none;
+  outline: none;
+}
+
+.bottom-navbar{
+  filter: brightness(50%);
+  transform: translateX(-1px);
+ 
+}
+
+.card .card-img-overlay .text-center .nav .icons {
+  transform: translateX(31rem);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #ffe606;
+  margin-top: 1rem;
+  margin-bottom:1rem;
+  margin-right: 10px;
+  transition: all 0.3s ease-in-out;
+  background-color: #ffb727;
+   
+  
+}
+.card .card-img-overlay .text-center .nav .icons:hover{
+  background-color: #fcea47;
+}
+.card .card-img-overlay .text-center .nav .icons .fab{
+  transform: translateX(-45px);
+  color: #000000;
+}
+.card .card-img-overlay .text-center .nav .icons .nav-item .fab{
+  /* transform: translateX(22rem); */
+  color: #ffe606;
+}
+/* .container {
+} */
+ .fixeded{
+  position:sticky ;
+	top: 510px;
+  
+	right: 50px;
+  left: 1300px;
+  width: 50px;
+  height: 70px;
+  border-radius: 5px;
+	z-index: 3;
+	font-size: 1.5rem;
+
+  background-color: #ffb727;
+
+}
+
+
+@keyframes anim-1 {
+    25%{
+        transform: translateY(10px);
+    }
+    50%{
+        transform: translateY(-10px); 
+    }
+    75%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px); 
+    }
+}
+@keyframes up-down {
+	0% {
+		transform: translateY(20px);
+	}
+	50% {
+		transform: translateY(0px);
+	}
+	100% {
+		transform: translateY(20px);
+	}
+}
+
+@media (min-width:0px) and (max-width:474.9px)
+{
+   /* responsive starting */
+  *{
+   margin: 0;
+   padding: 0;
+   font-size: 14px;
+ }
+   /* cards responsive */
+ .card-body #zero{
+   font-size: 14px;
+ }
+ .card  .text-center .nav {
+   margin: 0;
+ }
+ .container .row .col-4 ul li {
+  font-size:13px;
+}
+ .container .row .col-4 ul li  strong {
+   font-size:16px;
+ }
+ /* cards and icons responsive */
+ .card .card-img-overlay .text-center .nav .icons{
+   margin: 0;
+   transform: translateX(22px);
+   margin-right: 2px;
+   font-size: 14px;
+ }
+ .card .card-img-overlay .text-light {
+  font-size: 24px;
+ }
+ .card .card-img-overlay #endproject {
+  
+  font-size: 10px;
+  line-height: -10px;
+  margin-bottom: -5px;
+ }
+ .card .card-img-overlay #bottomNavbar {
+  font-size: 14px;
+ }
+ .card .card-img-overlay .text-center .nav .icons{
+   width:30px;
+   height: 30px;
+   transform: translate(2rem, -1rem);
+   /* margin-left: 2rem; */
+ }
+ .card .card-img-overlay .text-center .nav .icons .fab{
+   transform: translateX(-4px);
+   font-size: 14px;
+   align-items: center;
+ }
+
+
+
+ #social-profils .card .icons .fab{
+   transform: translateX(0rem);
+   margin-top: 3rem;
+   margin-bottom: -3rem;
+ }
+
+ /* display responsive */
+ .container .text-center .display-4 {
+   font-size: 38px;
+ }
+ /* home responsive */
+#home  #hero .hero-container{
+   font-size:16px;
+   margin-top: 16rem;
+ }
+ #home  #hero .hero-container h1{
+   font-size:22px;
+    transform: translateY(8rem);
+ }
+ #home  #hero .hero-container h2{
+  font-size:5px;
+  transform: translateY(7rem);
+}
+#home  #hero .hero-container a .fa-chevron-down{
+  font-size:15px;
+ margin-top: 4rem;
+}
+/* img responsive */
+img{
+  width: 100%;
+}
+/* about responsive */
+ .row{
+   width: 85%;
+ }
+ .row .col-4-md ul li .fa-chevron-right {
+   transform: scale(0.6);
+  }
+  .row .col-4 .img {
+    margin:6rem -3rem 6rem 5rem;
+    transform: scale(3.3);
+ }
+ 
+
+ /* my resume responsive */
+ .row .col-6 {
+   
+   margin-right: 20px;
+}
+.row .col-6 .cholck{
+   border-left: none;
+   width: 250px;
+  }
+ .row .col-6 .cholck h4{
+  font-size: 18px;
+}
+.row .col-6 .cholck .text-warning{
+  font-size: 14px;
+} 
+.row .col-6 .cholck p{
+  font-size: 14px;
+  width:90px;
+} 
+.row .col-6 .cholck ul li{
+  margin-left: 7px;
+  padding-right: 12px;
+}
+
+/* Services responsive  */
+
+.container  .card-deck .card .card-body p {
+  line-height: 30px;
+}
+.container  .card-deck .card .card-body span img  {
+ width:30%
+}
+
+/* Carousel responsive */
+.carousel .carousel-inner .carousel-item .carousel-caption .display-3{
+  font-size:22px;
+}
+.carousel .carousel-inner .carousel-item .carousel-caption h2{
+  font-size:16px;
+}
+.carousel .carousel-inner .carousel-indicators ul  {
+  width: 15px;
+}
+/*  My Portfoliyo responsive */
+.container #myPortfolio{
+  width:100%; 
+ 
+ 
+}
+.container .row .col-4 .card{
+  cursor:pointer;
+}
+.container .row .col-4 .card .card-img-overlay .text-center{
+  font-size: 8px;
+  margin: 0;
+}
+/* My portfoliyo Responsive the end*/
+
+
+/* price responsive start*/
+
+.container{
+  width:100%;
+}
+.container #myresume{
+  width:100%;
+  margin: 0 auto;
+  flex-direction: column;
+}
+.container .row .col-3{
+  width:150%;
+  margin-bottom: 1rem;
+
+}.container .row .col-3 .card{
+  width:550%;
+  margin-bottom: 1rem;
+
+}
+.container .card .card-body  #advanced{
+  padding-right: 25px;
+   transform: rotateZ(40deg);
+   margin-left: 9.5rem;
+  padding-left: 20px;
+   width: 140px;
+   height: 30px;
+padding-top: -2px;
+   font-size: 14px;
+   line-height: -10px;
+   margin-top: -10px;
+  }
+  /* price responsive end */
+
+  /* contact responsive start */
+  .container #social-profils{
+    width:100%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
+  
+  .container #homeCall-me{
+    flex-direction: column;
+  }
+  .container .row #karta{
+    margin-top: -1rem;
+  }
+  .container .row #call-me{
+    margin-top: 7rem;
+  }
+  .card .card-img-overlay .text-center .nav {
+    margin: 0 auto;
+
+  } .card .card-img-overlay .text-center .nav .icons {
+    margin-right: 3px;
+
+  }
+ 
+}
+@media (min-width:475px) and (max-width:774.9px)
+{
+   /* responsive starting */
+  *{
+   margin: 0;
+   padding: 0;
+   font-size: 14px;
+ }
+   /* cards responsive */
+ .card-body #zero{
+   font-size: 14px;
+ }
+ .card  .text-center .nav {
+   margin: 0;
+ }
+ .container .row .col-4 ul li {
+  font-size:13px;
+}
+ .container .row .col-4 ul li  strong {
+   font-size:16px;
+ }
+ /* cards and icons responsive */
+ .card .card-img-overlay .text-center .nav .icons{
+   margin: 0;
+   transform: translateX(22px);
+   margin-right: 2px;
+   font-size: 14px;
+ }
+ .card .card-img-overlay .text-light {
+  font-size: 24px;
+ }
+ .card .card-img-overlay #endproject {
+  
+  font-size: 10px;
+  line-height: -10px;
+  margin-bottom: -5px;
+ }
+ .card .card-img-overlay #bottomNavbar {
+  font-size: 14px;
+ }
+ .card .card-img-overlay .text-center .nav .icons{
+   width:30px;
+   height: 30px;
+   transform: translate(2rem, -1rem);
+   /* margin-left: 2rem; */
+ }
+ .card .card-img-overlay .text-center .nav .icons .fab{
+   transform: translateX(-4px);
+   font-size: 14px;
+   align-items: center;
+ }
+
+
+
+ #social-profils .card .icons .fab{
+   transform: translateX(0rem);
+   margin-top: 3rem;
+   margin-bottom: -3rem;
+ }
+
+ /* display responsive */
+ .container .text-center .display-4 {
+   font-size: 38px;
+ }
+ /* home responsive */
+#home  #hero .hero-container{
+   font-size:16px;
+   margin-top: 16rem;
+ }
+ #home  #hero .hero-container h1{
+   font-size:22px;
+    transform: translateY(8rem);
+ }
+ #home  #hero .hero-container h2{
+  font-size:5px;
+  transform: translateY(7rem);
+}
+#home  #hero .hero-container a .fa-chevron-down{
+  font-size:15px;
+ margin-top: 4rem;
+}
+/* img responsive */
+img{
+  width: 100%;
+}
+/* about responsive */
+ .row{
+   width: 85%;
+ }
+ .row .col-4-md ul li .fa-chevron-right {
+   transform: scale(0.6);
+  }
+  .row .col-4 .img {
+    margin:6rem -3rem 6rem 5rem;
+    transform: scale(3.3);
+ }
+ 
+
+ /* my resume responsive */
+ .row .col-6 {
+   
+   margin-right: 20px;
+}
+.row .col-6 .cholck{
+   border-left: none;
+   width: 250px;
+  }
+ .row .col-6 .cholck h4{
+  font-size: 18px;
+}
+.row .col-6 .cholck .text-warning{
+  font-size: 14px;
+} 
+.row .col-6 .cholck p{
+  font-size: 14px;
+  width:90px;
+} 
+.row .col-6 .cholck ul li{
+  margin-left: 7px;
+  padding-right: 12px;
+}
+
+/* Services responsive  */
+
+.container  .card-deck .card .card-body p {
+  line-height: 30px;
+}
+.container  .card-deck .card .card-body span img  {
+ width:20%
+}
+
+/* Carousel responsive */
+.carousel .carousel-inner .carousel-item .carousel-caption .display-3{
+  font-size:22px;
+}
+.carousel .carousel-inner .carousel-item .carousel-caption h2{
+  font-size:16px;
+}
+.carousel .carousel-inner .carousel-indicators ul  {
+  width: 15px;
+}
+/*  My Portfoliyo responsive */
+.container #myPortfolio{
+  width:100%; 
+ 
+ 
+}
+.container .row .col-4 .card{
+  cursor:pointer;
+}
+.container .row .col-4 .card .card-img-overlay .text-center{
+  font-size: 14px;
+  margin: 0;
+}
+/* My portfoliyo Responsive the end*/
+
+
+/* price responsive start*/
+
+.container{
+  width:100%;
+}
+.container #myresume{
+  width:100%;
+  margin: 0 auto;
+  flex-direction: column;
+}
+.container .row .col-3{
+  width:40%;
+  margin-bottom: 1rem;
+
+}.container .row .col-3 .card{
+  width:450%;
+  margin-bottom: 1rem;
+
+}
+.container .card .card-body  #advanced{
+  padding-right: 25px;
+   transform: rotateZ(40deg);
+   margin-left: 9.5rem;
+  padding-left: 20px;
+   width: 140px;
+   height: 30px;
+padding-top: -2px;
+   font-size: 14px;
+   line-height: -10px;
+   margin-top: -10px;
+  }
+  /* price responsive end */
+
+  /* contact responsive start */
+  .container #social-profils{
+    width:100%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
+  
+  .container #homeCall-me{
+    flex-direction: column;
+  }
+  .container .row #karta{
+    margin-top: -7rem;
+  }
+  .container .row #call-me{
+    margin-top: 7rem;
+  }
+  .card .card-img-overlay .text-center .nav {
+    margin: 0 auto;
+
+  } .card .card-img-overlay .text-center .nav .icons {
+    margin-right: 3px;
+
+  }
+ 
+}
+
+
+/*# sourceMappingURL=main.css.map */
